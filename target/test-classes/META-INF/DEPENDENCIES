@@ -1,0 +1,29 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+fondefApp
+
+
+From: 'an unknown organization'
+  - MongoDB Java Driver (http://www.mongodb.org) org.mongodb:mongo-java-driver:jar:3.2.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - twitter4j-core (http://twitter4j.org/) org.twitter4j:twitter4j-core:jar:4.0.4
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - twitter4j-stream (http://twitter4j.org/) org.twitter4j:twitter4j-stream:jar:4.0.4
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'Apache Software Foundation' (http://www.apache.org)
+  - Apache Log4j (http://logging.apache.org/log4j/1.2/) log4j:log4j:bundle:1.2.17
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Commons CLI (http://commons.apache.org/proper/commons-cli/) commons-cli:commons-cli:jar:1.3.1
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - flux-core (http://storm.apache.org/external/flux/flux-core) org.apache.storm:flux-core:jar:2.0.0-SNAPSHOT
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

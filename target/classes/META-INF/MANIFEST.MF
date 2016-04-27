@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Title: fondefApp
+Implementation-Version: 2.0.0-SNAPSHOT
+Implementation-Vendor-Id: citiaps
+Specification-Vendor: The Apache Software Foundation
+Build-Jdk: 1.7.0_95
+Built-By: daniel
+Created-By: Maven Integration for Eclipse
+Specification-Title: fondefApp
+Specification-Version: 2.0.0-SNAPSHOT
+
