@@ -39,7 +39,7 @@ public class MergeBolt implements IRichBolt {
 	 * y enviará al siguiente Bolt en caso de ser necesario
 	 */
 	@Override
-	public void execute(Tuple tuple) {
+	public void execute(Tuple tuple) {		
 		Map<Integer, Integer> countNum = (Map<Integer, Integer>) tuple.getValueByField("countNum");
 
 		for (int number : countNum.keySet()) {
