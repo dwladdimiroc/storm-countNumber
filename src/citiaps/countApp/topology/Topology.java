@@ -33,13 +33,13 @@ public class Topology {
 		// Set Bolt
 		builder.setBolt("textBolt", new TextBolt(), 1).shuffleGrouping("defaultSpout", "streamSpout");
 
-		// builder.setBolt("numberBolt", new NumberBolt(),
-		// 5).fieldsGrouping("textBolt", "streamText",
-		// new Fields("number"));
+		builder.setBolt("numberBolt", new NumberBolt(), 5).fieldsGrouping("textBolt", "streamText",
+				new Fields("number"));
 
-		builder.setBolt("numberWindowedBolt",
-				new NumberWindowedBolt().withTumblingWindow(new Duration(5, TimeUnit.SECONDS)), 5)
-				.fieldsGrouping("textBolt", "streamText", new Fields("number"));
+		// builder.setBolt("numberWindowedBolt",
+		// new NumberWindowedBolt().withTumblingWindow(new Duration(5,
+		// TimeUnit.SECONDS)), 5)
+		// .fieldsGrouping("textBolt", "streamText", new Fields("number"));
 
 		builder.setBolt("mergeBolt", new MergeBolt(), 1).shuffleGrouping("numberWindowedBolt", "streamNumber");
 
